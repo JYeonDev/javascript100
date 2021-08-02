@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15번 문제</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  
+  <div class="main_container">
+
+    <h1>개발학원 신청</h1>
+    <form class="subform">
+      <input type="text" id="name_value" placeholder="신청인">
+      <input type="text" id="course_value" placeholder="코스">
+      <input type="text" id="teacher_value" placeholder="희망강사">
+      <button>submit</button>
+    </form>
+
+    <div class="loader toggle"></div>
+
+    <div class="imgsubmit disappear">
+      <img src="./image/person1.png" alt="제출서류">
+      <div class="yellow">성함 : <span id="name"></span></div>
+      <div class="green">코스 : <span id="course"></span></div>
+      <div class="red">강사 : <span id="teacher"></span></div>
+    </div>
+
+  </div>
+
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
