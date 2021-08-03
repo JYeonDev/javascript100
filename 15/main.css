@@ -86,23 +86,24 @@ img {
   height: 150px;
 }
 
-.imgsubmit > div {
-  margin: 15px;
+.imgsubmit > div .common{
+  display: inline-block;
+  margin: 10px;
   padding: 3px;
   width: 40px;
   border-radius: 5px;
 }
 
-.imgsubmit > div:nth-of-type(1) {
+.imgsubmit > div .yellow {
   background-color: yellow;
 }
 
-.imgsubmit > div:nth-of-type(2) {
+.imgsubmit > div .green {
   background-color: green;
   color: #fff;
 }
 
-.imgsubmit > div:nth-of-type(3) {
+.imgsubmit > div .red {
   background-color: red;
   color: #fff;
 }
