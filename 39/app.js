@@ -1,10 +1,9 @@
-const form = document.getElementById('form');
-const input = document.getElementById('input');
-const valueTwo = document.querySelector('.length_box');
+let button = document.getElementById('btn');
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault;
-  valueLength = valueTwo.value.length;
-  valueTwo.classList.remove(feedback);
-  valueTwo.innerHTML = valueLength;
+button.addEventListener('click', function(){
+    let word = document.getElementById('str').value;
+    let count = word.length;
+    let outputDiv = document.getElementById('output');
+
+    outputDiv.innerHTML = `<h1>${count}</h1>`
 });
