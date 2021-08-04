@@ -1,10 +1,17 @@
+body {
+  overflow: hidden;
+}
+
 h1 {
   text-align: center;
 }
 
+
 img {
   width: 800px;
   height: 600px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .left,
@@ -12,7 +19,18 @@ img {
   width: 35px;
   height: 35px;
   border: 2px solid #000;
+  background-color: #fff;
   position: relative;
+}
+
+.left {
+  top: 320px;
+  left: 360px;
+}
+
+.right {
+  top: -320px;
+  left: 1121px;
 }
 
 #arrow-left,
